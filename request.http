@@ -1,0 +1,11 @@
+GET http://localhost:3000/api/equipments
+
+###
+POST http://localhost:3000/api/equipments
+
+{
+    "unitCode": "CODE 1",
+    "project": "Project 1",
+    "plantGroup": "Plant Group 1",
+    "model": "Model 1"
+}
